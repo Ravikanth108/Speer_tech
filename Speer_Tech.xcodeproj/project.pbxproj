@@ -3,18 +3,26 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		556CC9862705037E0023AE6C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 556CC9852705037E0023AE6C /* AppDelegate.swift */; };
 		556CC9882705037E0023AE6C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 556CC9872705037E0023AE6C /* SceneDelegate.swift */; };
-		556CC98A2705037E0023AE6C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 556CC9892705037E0023AE6C /* ViewController.swift */; };
 		556CC98D2705037E0023AE6C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 556CC98B2705037E0023AE6C /* Main.storyboard */; };
 		556CC98F270503810023AE6C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 556CC98E270503810023AE6C /* Assets.xcassets */; };
 		556CC992270503810023AE6C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 556CC990270503810023AE6C /* LaunchScreen.storyboard */; };
 		556CC99D270503810023AE6C /* Speer_TechTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 556CC99C270503810023AE6C /* Speer_TechTests.swift */; };
 		556CC9A8270503820023AE6C /* Speer_TechUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 556CC9A7270503820023AE6C /* Speer_TechUITests.swift */; };
+		55F02D6C27066E0400C413B9 /* Users.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F02D6B27066E0400C413B9 /* Users.swift */; };
+		55F02D7027067A1400C413B9 /* UsersTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F02D6E27067A1400C413B9 /* UsersTableViewCell.swift */; };
+		55F02D7127067A1400C413B9 /* UsersTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 55F02D6F27067A1400C413B9 /* UsersTableViewCell.xib */; };
+		55F02D752707851800C413B9 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F02D742707851800C413B9 /* Service.swift */; };
+		55F02D782707863A00C413B9 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F02D772707863A00C413B9 /* SearchViewController.swift */; };
+		55F02D7B2707AE1B00C413B9 /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = 55F02D7A2707AE1B00C413B9 /* SDWebImage */; };
+		55F02D7D2707AE1B00C413B9 /* SDWebImageMapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 55F02D7C2707AE1B00C413B9 /* SDWebImageMapKit */; };
+		55F02D7F2707B39E00C413B9 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F02D7E2707B39E00C413B9 /* ProfileViewController.swift */; };
+		55F02D812707D6ED00C413B9 /* FollowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F02D802707D6ED00C413B9 /* FollowViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +46,6 @@
 		556CC9822705037E0023AE6C /* Speer_Tech.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Speer_Tech.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		556CC9852705037E0023AE6C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		556CC9872705037E0023AE6C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		556CC9892705037E0023AE6C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		556CC98C2705037E0023AE6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		556CC98E270503810023AE6C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		556CC991270503810023AE6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +56,13 @@
 		556CC9A3270503820023AE6C /* Speer_TechUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Speer_TechUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		556CC9A7270503820023AE6C /* Speer_TechUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Speer_TechUITests.swift; sourceTree = "<group>"; };
 		556CC9A9270503820023AE6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55F02D6B27066E0400C413B9 /* Users.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Users.swift; sourceTree = "<group>"; };
+		55F02D6E27067A1400C413B9 /* UsersTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = UsersTableViewCell.swift; path = Speer_Tech/View/UsersTableViewCell.swift; sourceTree = SOURCE_ROOT; };
+		55F02D6F27067A1400C413B9 /* UsersTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = UsersTableViewCell.xib; path = Speer_Tech/View/UsersTableViewCell.xib; sourceTree = SOURCE_ROOT; };
+		55F02D742707851800C413B9 /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		55F02D772707863A00C413B9 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		55F02D7E2707B39E00C413B9 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ProfileViewController.swift; path = Speer_Tech/View/ProfileViewController.swift; sourceTree = SOURCE_ROOT; };
+		55F02D802707D6ED00C413B9 /* FollowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FollowViewController.swift; path = Speer_Tech/View/FollowViewController.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +70,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55F02D7D2707AE1B00C413B9 /* SDWebImageMapKit in Frameworks */,
+				55F02D7B2707AE1B00C413B9 /* SDWebImage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,10 +115,12 @@
 		556CC9842705037E0023AE6C /* Speer_Tech */ = {
 			isa = PBXGroup;
 			children = (
+				55F02D762707860700C413B9 /* Controllers */,
+				55F02D73270784FC00C413B9 /* API Service */,
+				55F02D7227067A1E00C413B9 /* View */,
+				55F02D6D27066E0F00C413B9 /* Model */,
 				556CC9852705037E0023AE6C /* AppDelegate.swift */,
 				556CC9872705037E0023AE6C /* SceneDelegate.swift */,
-				556CC9892705037E0023AE6C /* ViewController.swift */,
-				556CC98B2705037E0023AE6C /* Main.storyboard */,
 				556CC98E270503810023AE6C /* Assets.xcassets */,
 				556CC990270503810023AE6C /* LaunchScreen.storyboard */,
 				556CC993270503810023AE6C /* Info.plist */,
@@ -128,6 +146,42 @@
 			path = Speer_TechUITests;
 			sourceTree = "<group>";
 		};
+		55F02D6D27066E0F00C413B9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				55F02D6B27066E0400C413B9 /* Users.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		55F02D7227067A1E00C413B9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				556CC98B2705037E0023AE6C /* Main.storyboard */,
+				55F02D6E27067A1400C413B9 /* UsersTableViewCell.swift */,
+				55F02D6F27067A1400C413B9 /* UsersTableViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		55F02D73270784FC00C413B9 /* API Service */ = {
+			isa = PBXGroup;
+			children = (
+				55F02D742707851800C413B9 /* Service.swift */,
+			);
+			path = "API Service";
+			sourceTree = "<group>";
+		};
+		55F02D762707860700C413B9 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				55F02D802707D6ED00C413B9 /* FollowViewController.swift */,
+				55F02D7E2707B39E00C413B9 /* ProfileViewController.swift */,
+				55F02D772707863A00C413B9 /* SearchViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -144,6 +198,10 @@
 			dependencies = (
 			);
 			name = Speer_Tech;
+			packageProductDependencies = (
+				55F02D7A2707AE1B00C413B9 /* SDWebImage */,
+				55F02D7C2707AE1B00C413B9 /* SDWebImageMapKit */,
+			);
 			productName = Speer_Tech;
 			productReference = 556CC9822705037E0023AE6C /* Speer_Tech.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +273,9 @@
 				Base,
 			);
 			mainGroup = 556CC9792705037D0023AE6C;
+			packageReferences = (
+				55F02D792707AE1B00C413B9 /* XCRemoteSwiftPackageReference "SDWebImage" */,
+			);
 			productRefGroup = 556CC9832705037E0023AE6C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -231,6 +292,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55F02D7127067A1400C413B9 /* UsersTableViewCell.xib in Resources */,
 				556CC992270503810023AE6C /* LaunchScreen.storyboard in Resources */,
 				556CC98F270503810023AE6C /* Assets.xcassets in Resources */,
 				556CC98D2705037E0023AE6C /* Main.storyboard in Resources */,
@@ -258,9 +320,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				556CC98A2705037E0023AE6C /* ViewController.swift in Sources */,
+				55F02D782707863A00C413B9 /* SearchViewController.swift in Sources */,
+				55F02D7027067A1400C413B9 /* UsersTableViewCell.swift in Sources */,
 				556CC9862705037E0023AE6C /* AppDelegate.swift in Sources */,
+				55F02D752707851800C413B9 /* Service.swift in Sources */,
+				55F02D7F2707B39E00C413B9 /* ProfileViewController.swift in Sources */,
+				55F02D6C27066E0400C413B9 /* Users.swift in Sources */,
 				556CC9882705037E0023AE6C /* SceneDelegate.swift in Sources */,
+				55F02D812707D6ED00C413B9 /* FollowViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -593,6 +660,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		55F02D792707AE1B00C413B9 /* XCRemoteSwiftPackageReference "SDWebImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImage.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.12.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		55F02D7A2707AE1B00C413B9 /* SDWebImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 55F02D792707AE1B00C413B9 /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImage;
+		};
+		55F02D7C2707AE1B00C413B9 /* SDWebImageMapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 55F02D792707AE1B00C413B9 /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImageMapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 556CC97A2705037D0023AE6C /* Project object */;
 }
